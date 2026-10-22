@@ -1,0 +1,10 @@
+**/target
+**/node_modules
+**/dist
+.git
+.idea
+.vscode
+data
+citylife-web
+README.md
+sql

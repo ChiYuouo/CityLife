@@ -1,0 +1,4 @@
+org.springframework.boot.env.EnvironmentPostProcessor=\
+  com.citylife.environment.SpringEnvironment
+org.springframework.context.ApplicationContextInitializer=\
+  com.citylife.core.SpringUtil

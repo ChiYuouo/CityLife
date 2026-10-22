@@ -1,0 +1,17 @@
+package com.citylife.service.impl;
+
+import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
+import lombok.extern.slf4j.Slf4j;
+import com.citylife.entity.UserPhone;
+import com.citylife.mapper.UserPhoneMapper;
+import com.citylife.service.IUserPhoneService;
+import org.springframework.stereotype.Service;
+
+/**
+ * @description: 用户手机 接口实现
+ **/
+@Slf4j
+@Service
+public class UserPhoneServiceImpl extends ServiceImpl<UserPhoneMapper, UserPhone> implements IUserPhoneService {
+    
+}
